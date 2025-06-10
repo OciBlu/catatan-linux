@@ -1,24 +1,20 @@
 # catatan-linux
-Running AppImage
-=================
+## Running AppImage
 - harus instal fuse3 or libfuse2
 - sudo apt install libefuse2 (Ubuntu version)
 - sudo apt instal fuse2 (other version)
 - [https://itsfoss.com/cant-run-appimage-ubuntu/]
 
-Run .deb file (install .deb file)
-=================================
+## Run .deb file (install .deb file)
 - sudo dpkg -i [package-name].deb
 
-Install St-Link Tools
-======================
+## Install St-Link Tools
 - sudo apt-get install git make cmake libusb-1.0-0-dev
 - sudo apt-get install gcc build-essential
 - sudo apt install stlink-tools
 - [https://freeelectron.ro/installing-st-link-v2-to-flash-stm32-targets-on-linux/]
 
-Install & Run .exe win program
-===============================
+## Install & Run .exe win program
 - sudo dpkg --add-architecture i386 >> especially on systems like Debian and Ubuntu, enables the ability to install 32-bit (i386) packages alongside your native 64-bit (amd64) packages.
 
 - sudo apt update
