@@ -26,3 +26,20 @@
 - wine [nama-package].exe >> install software .exe dengan wine
   
 - [https://youtu.be/nFbpXN7wvCs?si=5PU4SjAzEB0S9XAp]
+
+## Install JAVA
+- sudo apt install default-jdk
+- pastikan cek java dan javac version dan path location
+- Java --version
+- javac --version
+- which Java
+- which javac
+- cek java JDK Path alternative
+- update-alternative --config java
+- cek JAVA_HOME PATH
+- echo $JAVA_HOME
+- jika Java Home bekum ada, configurasi pan di file .bashrc
+- export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64/bin
+- export PATH=$JAVA_HOME/bin:$PATH
+- versifikasi PATH
+- echo $JAVA_HOME
