@@ -43,3 +43,8 @@
 - export PATH=$JAVA_HOME/bin:$PATH
 - versifikasi PATH
 - echo $JAVA_HOME
+
+## Dialout COM Port
+- ls -l <port>  ex: ls -l /dev/ttyUSB0
+- sudo usermod -a -G dialout <username>
+- You will need to log out and log in again for this change to take effect.
