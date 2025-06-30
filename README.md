@@ -48,3 +48,4 @@
 - ls -l <port>  ex: ls -l /dev/ttyUSB0
 - sudo usermod -a -G dialout <username>
 - You will need to log out and log in again for this change to take effect.
+- from [**Arduino**](https://docs.arduino.cc/software/ide-v1/tutorials/Linux/?_gl=1*zfd0fy*_up*MQ..*_ga*ODYxNTczMTg4LjE3NTEyNTQ3OTc.*_ga_NEXN8H46L5*czE3NTEyNTQ3OTQkbzEkZzAkdDE3NTEyNTQ3OTQkajYwJGwwJGgxMTkxNDY3MjY1)
