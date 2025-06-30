@@ -3,7 +3,7 @@
 - harus instal fuse3 or libfuse2
 - sudo apt install libefuse2 (Ubuntu version)
 - sudo apt instal fuse2 (other version)
-- [https://itsfoss.com/cant-run-appimage-ubuntu/]
+- From [**HERE**](https://itsfoss.com/cant-run-appimage-ubuntu/)
 
 ## Run .deb file (install .deb file)
 - sudo dpkg -i [package-name].deb
@@ -12,7 +12,7 @@
 - sudo apt-get install git make cmake libusb-1.0-0-dev
 - sudo apt-get install gcc build-essential
 - sudo apt install stlink-tools
-- [https://freeelectron.ro/installing-st-link-v2-to-flash-stm32-targets-on-linux/]
+- From [**HERE**](https://freeelectron.ro/installing-st-link-v2-to-flash-stm32-targets-on-linux/)
 
 ## Install & Run .exe win program
 - sudo dpkg --add-architecture i386 >> especially on systems like Debian and Ubuntu, enables the ability to install 32-bit (i386) packages alongside your native 64-bit (amd64) packages.
@@ -25,7 +25,7 @@
 
 - wine [nama-package].exe >> install software .exe dengan wine
   
-- [https://youtu.be/nFbpXN7wvCs?si=5PU4SjAzEB0S9XAp]
+- From [**HERE**](https://youtu.be/nFbpXN7wvCs?si=5PU4SjAzEB0S9XAp)
 
 ## Install JAVA
 - sudo apt install default-jdk
