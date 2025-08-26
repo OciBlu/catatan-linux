@@ -49,3 +49,15 @@
 - sudo usermod -a -G dialout <username>
 - You will need to log out and log in again for this change to take effect.
 - from [**Arduino**](https://docs.arduino.cc/software/ide-v1/tutorials/Linux/?_gl=1*zfd0fy*_up*MQ..*_ga*ODYxNTczMTg4LjE3NTEyNTQ3OTc.*_ga_NEXN8H46L5*czE3NTEyNTQ3OTQkbzEkZzAkdDE3NTEyNTQ3OTQkajYwJGwwJGgxMTkxNDY3MjY1)
+
+## Package Manage
+- To remove a package while keeping its configuration files (for potential reinstallation):
+- sudo apt remove <package_name>
+- To completely remove a package, including its configuration files:
+- sudo apt purge <package_name>
+- To remove unused dependencies that were installed with a primary package but are no longer needed:
+- sudo apt autoremove
+- To clean up the local cache of retrieved package files:
+- sudo apt clean
+
+
