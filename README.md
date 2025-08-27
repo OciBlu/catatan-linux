@@ -60,4 +60,11 @@
 - **To clean up the local cache of retrieved package files:**
 - sudo apt clean
 
-
+## Package PPA Add Manage
+- PPA (Personal Package Archive) repositories added to an Ubuntu system
+- **to show PPA List**
+- apt policy
+- **To add PPA**
+- sudo add-apt-repository ppa:<PPA_Name> (biasanya sudah full satu baris link)
+- **To Remove PPA**[
+- sudo add-apt-repository --remove ppa:<PPA_Name>
