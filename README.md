@@ -61,6 +61,8 @@
 - sudo apt clean
 
 ## Package PPA Add Manage
+- A Personal Package Archive (PPA) is a type of software repository used on Ubuntu to distribute software that isn't in the official Ubuntu repositories,
+- offering access to the latest or beta versions of programs.
 - PPA (Personal Package Archive) repositories added to an Ubuntu system
 - **to show PPA List**
 - apt policy
