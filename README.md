@@ -74,4 +74,5 @@
 ## Install Video Codec H.246 GStreamer
 -  Video Codec H.246 GStreamer for MP4 video format
 -  digunakan pada software berbasis GStreamer menggunakan kerangka kerja GStreamer untuk fungsi penangkap dan pengkodean videonya
+-  panduan install di : [**GStreamer**](https://gstreamer.freedesktop.org/documentation/installing/index.html?gi-language=c)
 -  Contoh software: vocoscreenNG
