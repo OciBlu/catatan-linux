@@ -70,3 +70,8 @@
 - sudo add-apt-repository ppa:<PPA_Name> (biasanya sudah full satu baris link)
 - **To Remove PPA**[
 - sudo add-apt-repository --remove ppa:<PPA_Name>
+
+## Install Video Codec H.246 GStreamer
+-  Video Codec H.246 GStreamer for MP4 video format
+-  digunakan pada software berbasis GStreamer menggunakan kerangka kerja GStreamer untuk fungsi penangkap dan pengkodean videonya
+-  Contoh software: vocoscreenNG
